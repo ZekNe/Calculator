@@ -102,7 +102,6 @@ keys.addEventListener("click", (e) => {
     }
 });
 
-//testa
 
 
 
