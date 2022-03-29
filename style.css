@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(37, 37, 37), rgb(196, 196, 196));
+
+}
+
+#desc {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5vh;
+    color: rgb(36, 36, 36);
+    text-align: center;
+    margin: 5%;
+
+}
+
+.calculator {
+    position: relative;
+    display: grid;
+    background-color: rgb(24, 51, 61);
+
+    box-shadow: 3px 3px 3px rgb(24, 24, 24);
+    border: 2px solid;
+    border-radius: 1%;
+    padding: 1%;
+    height: 50vh;
+    width: 50vh;
+
+}
+
+.calculator__display {
+    color: aliceblue;
+    font-size: 5vh;
+    background-color: black;
+    text-align: right;
+    line-height: 100%;
+    padding-right: 3%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 5vh;
+    border: 2px solid gray;
+    border-radius: 1%;
+}
+
+.calculator__keys {
+    display: grid;
+    height: 40vh;
+    grid-gap: 3px;
+    margin: 2%;
+    background-color: rgb(63, 63, 63);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+
+}
+
+.equal {
+    grid-column: 4;
+    grid-row: 2/6;
+    background: linear-gradient(45deg, rgb(196, 196, 196), rgb(51, 51, 51));
+}
+
+.operator {
+    background: linear-gradient(225deg, rgb(196, 196, 196), rgb(51, 51, 51));
+}
