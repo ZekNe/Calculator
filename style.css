@@ -11,7 +11,6 @@ html {
 
 body {
     background: linear-gradient(45deg, rgb(37, 37, 37), rgb(196, 196, 196));
-
 }
 
 #desc {
@@ -20,7 +19,6 @@ body {
     color: rgb(36, 36, 36);
     text-align: center;
     margin: 5%;
-
 }
 
 .calculator {
@@ -34,7 +32,6 @@ body {
     padding: 1%;
     height: 50vh;
     width: 50vh;
-
 }
 
 .calculator__display {
@@ -60,8 +57,6 @@ body {
     background-color: rgb(63, 63, 63);
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-
-
 }
 
 .equal {

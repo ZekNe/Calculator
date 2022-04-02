@@ -40,7 +40,6 @@ keys.addEventListener("click", (e) => {
             display.textContent = "0";
             calculator.dataset.previousKeyType = '';
             calculator.dataset.firstValue = '0';
-
         };
 
         if (!action || action === "decimal") {
