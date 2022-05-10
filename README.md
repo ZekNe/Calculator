@@ -1,2 +1,4 @@
-## Calculator
+# Calculator
+
+### Made with HTML/CSS/JS
 
